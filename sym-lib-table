@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "Connector_KSL")(type "KiCad")(uri "/home/sagan/Projects/kicad-shared-libs/Connector_KSL/Connector_KSL.kicad_sym")(options "")(descr ""))
   (lib (name "Fastener_KSL")(type "KiCad")(uri "${KSL_ROOT}/Fastener_KSL/Fastener_KSL.kicad_sym")(options "")(descr ""))
+  (lib (name "Switch_KSL")(type "KiCad")(uri "${KSL_ROOT}/Switch_KSL/Switch_KSL.kicad_sym")(options "")(descr ""))
+  (lib (name "Sensor_KSL")(type "KiCad")(uri "${KSL_ROOT}/Sensor_KSL/Sensor_KSL.kicad_sym")(options "")(descr ""))
 )
