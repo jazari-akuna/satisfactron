@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Connector_KSL")(type "KiCad")(uri "/home/sagan/Projects/kicad-shared-libs/Connector_KSL/Connector_KSL.pretty")(options "")(descr ""))
+  (lib (name "Fastener_KSL")(type "KiCad")(uri "${KSL_ROOT}/Fastener_KSL/Fastener_KSL.pretty")(options "")(descr ""))
+)
