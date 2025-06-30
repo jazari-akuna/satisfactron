@@ -4,4 +4,8 @@
   (lib (name "Fastener_KSL")(type "KiCad")(uri "${KSL_ROOT}/Fastener_KSL/Fastener_KSL.pretty")(options "")(descr ""))
   (lib (name "Switch_KSL")(type "KiCad")(uri "${KSL_ROOT}/Switch_KSL/Switch_KSL.pretty")(options "")(descr ""))
   (lib (name "Sensor_KSL")(type "KiCad")(uri "${KSL_ROOT}/Sensor_KSL/Sensor_KSL.pretty")(options "")(descr ""))
+  (lib (name "LED_Driver_KSL")(type "KiCad")(uri "${KSL_ROOT}/LED_Driver_KSL/LED_Driver_KSL.pretty")(options "")(descr ""))
+  (lib (name "LED_KSL")(type "KiCad")(uri "${KSL_ROOT}/LED_KSL/LED_KSL.pretty")(options "")(descr ""))
+  (lib (name "MCU_KSL")(type "KiCad")(uri "${KSL_ROOT}/MCU_KSL/MCU_KSL.pretty")(options "")(descr ""))
+  (lib (name "DC-DC_converter_KSL")(type "KiCad")(uri "${KSL_ROOT}/DC-DC_converter_KSL/DC-DC_converter_KSL.pretty")(options "")(descr ""))
 )
