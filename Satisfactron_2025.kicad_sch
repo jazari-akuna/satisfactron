@@ -1692,261 +1692,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DC-DC_converter_KSL:TPS82130SILR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U?"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TPS82130SILR"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "DC-DC_converter_KSL:USIP-8_L3.0-W2.8-P0.65-TL-EP"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://item.szlcsc.com/480473.html"
-				(at -2.286 0.127 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Step-down fully integrated DC-DC converter power module 3V-17V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C473914"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "C473914"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TPS82130SILR_0_1"
-				(rectangle
-					(start -8.89 7.62)
-					(end 8.89 -7.62)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -7.62 6.35)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -11.43 2.54 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -11.43 0 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -11.43 -2.54 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -11.43 -5.08 0)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 11.43 5.08 180)
-					(length 2.54)
-					(name "EP"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 11.43 2.54 180)
-					(length 2.54)
-					(name "SS/TR"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 11.43 0 180)
-					(length 2.54)
-					(name "PG"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 11.43 -2.54 180)
-					(length 2.54)
-					(name "FB"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 11.43 -5.08 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -5156,6 +4901,498 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch_KSL:MSK-22D18G4_051"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW?"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MSK-22D18G4_051"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Switch_KSL:SW-TH_HX-MSK-22D18G4-051"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20231016/7F9C1F299AEF9CB679C85C94DF434799.pdf"
+				(at -2.286 0.127 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Horizontal slide switch 100mA DPDT 12V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C7507433"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C7507433"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MSK-22D18G4_051_0_1"
+				(rectangle
+					(start -7.62 6.35)
+					(end 7.62 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.842 0) (xy 4.826 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.588 3.556) (xy -4.318 3.556) (xy -4.318 2.286) (xy -0.762 2.286) (xy -0.762 3.556) (xy 0.762 3.556)
+						(xy 0.762 1.016) (xy -5.842 1.016) (xy -5.842 3.556) (xy -5.588 3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.588 -3.81) (xy -4.318 -3.81) (xy -4.318 -2.54) (xy -0.762 -2.54) (xy -0.762 -3.81) (xy 0.762 -3.81)
+						(xy 0.762 -1.27) (xy -5.842 -1.27) (xy -5.842 -3.81) (xy -5.588 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 6.35) (xy -5.08 4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 4.572) (xy -5.08 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 3.81) (xy -5.334 4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 3.81) (xy -4.826 4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -4.064) (xy -5.334 -4.826)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -4.064) (xy -4.826 -4.826)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -4.826) (xy -5.08 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -6.604) (xy -5.08 -4.826)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 0 4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 4.572) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy -0.254 4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 0.254 4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.064) (xy -0.254 -4.826)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.064) (xy 0.254 -4.826)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.826) (xy 0 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -6.604) (xy 0 -4.826)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 6.35) (xy 5.08 3.81) (xy 5.334 4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 3.81) (xy 4.826 4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -4.064) (xy 4.826 -4.826)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -6.604) (xy 5.08 -4.064) (xy 5.334 -4.826)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 0) (xy 4.572 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 0) (xy 4.572 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 11.43 270)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -11.43 90)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 11.43 270)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -11.43 90)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 11.43 270)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -11.43 90)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch_KSL:SPVN310101"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5383,308 +5620,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Switch_KSL:SS-12D11G5R"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW?"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SS-12D11G5R"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Switch_KSL:SW-TH_SS-12D11G5R"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://item.szlcsc.com/363903.html"
-				(at -2.286 0.127 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Horizontal Plug 5A Single Pole Double Throw (SPDT) 125V 125V 5A 10,000 times Black Plugin Slide Switches ROHS THT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C388633"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "C388633"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SS-12D11G5R_0_1"
-				(polyline
-					(pts
-						(xy -7.62 0) (xy -7.62 7.62) (xy 7.62 7.62) (xy 7.62 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -6.604 2.286)
-					(end -3.556 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.286) (xy -5.334 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.286) (xy -4.826 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.286) (xy -5.08 5.08) (xy 1.778 5.08) (xy 1.778 2.286) (xy 2.032 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.54 2.286)
-					(end 2.54 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -2.032 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -1.524 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -1.778 6.35) (xy 5.08 6.35) (xy 5.08 2.286) (xy 5.334 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 2.286) (xy 1.524 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.556 2.286)
-					(end 6.604 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.286) (xy 4.826 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 -5.08 90)
-					(length 5.08)
-					(name "5"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -5.08 90)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 90)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 -5.08 90)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 -5.08 90)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1 1)
@@ -8036,8 +7971,8 @@
 		(uuid 78f21437-dfeb-4bb0-ac6e-2cf77567d89b)
 	)
 	(rectangle
-		(start 161.29 38.1)
-		(end 217.17 80.01)
+		(start 162.56 20.32)
+		(end 218.44 83.82)
 		(stroke
 			(width 0)
 			(type dash)
@@ -8046,6 +7981,18 @@
 			(type none)
 		)
 		(uuid 7b63bc64-0a48-45b5-98c7-f3f22fdd61da)
+	)
+	(rectangle
+		(start 121.92 85.09)
+		(end 173.99 110.49)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 87cd7759-a036-4d40-8fd0-1de07543dde2)
 	)
 	(rectangle
 		(start 219.71 55.88)
@@ -8070,18 +8017,6 @@
 			(type none)
 		)
 		(uuid cd0e149a-9a9e-45fb-aadb-fb51344a4997)
-	)
-	(rectangle
-		(start 232.41 90.17)
-		(end 269.24 130.81)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid e7deba48-e598-4f64-8dfd-0d148ebf0f68)
 	)
 	(rectangle
 		(start 317.5 135.89)
@@ -8165,19 +8100,6 @@
 		)
 		(uuid "0b2e4316-08e4-4571-a8a5-461a3d722b8f")
 	)
-	(text "rempl par C388633"
-		(exclude_from_sim no)
-		(at 144.78 18.034 0)
-		(effects
-			(font
-				(face "Tahoma")
-				(size 1.5 1.5)
-				(color 255 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "145cd63e-10fe-402a-acde-b69de3b24622")
-	)
 	(text "Servomoteur"
 		(exclude_from_sim no)
 		(at 383.286 137.414 0)
@@ -8214,17 +8136,6 @@
 			(justify left bottom)
 		)
 		(uuid "28ce8f39-10c1-4817-b961-b4880155bd86")
-	)
-	(text "5V 3A Power supply"
-		(exclude_from_sim no)
-		(at 232.664 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2ed97b78-63fc-4a7e-9222-20a92dd51d6d")
 	)
 	(text "µSW ****"
 		(exclude_from_sim no)
@@ -8561,13 +8472,24 @@
 	)
 	(text "le switch dépasse sur le coté"
 		(exclude_from_sim no)
-		(at 190.246 73.66 0)
+		(at 191.516 55.88 0)
 		(effects
 			(font
 				(size 2 2)
 			)
 		)
 		(uuid "c43749dd-ba1e-419c-8cf5-3b07ec3c659a")
+	)
+	(text "Buttons"
+		(exclude_from_sim no)
+		(at 121.92 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cffb4040-6dc5-4c62-b8c1-f844104774a6")
 	)
 	(text "JTAGsig should be pulldown"
 		(exclude_from_sim no)
@@ -8636,7 +8558,7 @@
 	)
 	(text "Battery input (Canon LP-E17, 7.4V), main switch"
 		(exclude_from_sim no)
-		(at 161.544 38.1 0)
+		(at 162.814 20.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8691,19 +8613,6 @@
 			)
 		)
 		(uuid "faaea232-993b-483f-bb8b-6cf62ef448ef")
-	)
-	(text "rempl par USB-C (C2927038)"
-		(exclude_from_sim no)
-		(at 165.608 18.034 0)
-		(effects
-			(font
-				(face "Tahoma")
-				(size 1.5 1.5)
-				(color 255 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "fb8a989a-1f7c-4bda-87df-17859ddd4eb3")
 	)
 	(text "Buzzer (auto-oscillant)"
 		(exclude_from_sim no)
@@ -9322,7 +9231,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 68.58) (xy 200.66 68.58)
+			(xy 172.72 50.8) (xy 201.93 50.8)
 		)
 		(stroke
 			(width 0.5)
@@ -10724,7 +10633,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 66.04) (xy 200.66 66.04)
+			(xy 182.88 48.26) (xy 201.93 48.26)
 		)
 		(stroke
 			(width 0.5)
@@ -10795,7 +10704,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 66.04) (xy 171.45 66.04)
+			(xy 177.8 48.26) (xy 172.72 48.26)
 		)
 		(stroke
 			(width 0.5)
@@ -11337,7 +11246,7 @@
 		(uuid "600e861d-7a67-4205-9a90-c409c736d24d")
 	)
 	(label "VBATT_7V"
-		(at 198.12 66.04 180)
+		(at 199.39 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17549,8 +17458,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_KSL:GT-BTP30002-0350B-019B")
+		(at 182.88 64.77 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3418d4ad-bad0-484d-8919-6919e3204455")
+		(property "Reference" "J9"
+			(at 178.562 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GT-BTP30002-0350B-019B"
+			(at 182.88 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_KSL:CONN-SMD_GT-BTP30002-0350B-019B"
+			(at 182.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20240906/62610B2B7CB81AE3778ADCA5ECBA552A.pdf"
+			(at 185.166 64.643 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Battery bending blade connector pitch 3mm, 1.9mm travel, 1mm width"
+			(at 182.88 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41378766"
+			(at 182.88 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b801044a-0851-4cac-85eb-08057343e70c")
+		)
+		(pin "1"
+			(uuid "b1c2aa42-f814-46d6-9fe6-beaec9d2411f")
+		)
+		(pin "3"
+			(uuid "fef9f798-1f78-437d-83d8-06af1f192a7d")
+		)
+		(instances
+			(project "Satisfactron_2025"
+				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 200.66 68.58 270)
+		(at 201.93 50.8 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17559,7 +17551,7 @@
 		(dnp no)
 		(uuid "34cfcbfc-eacd-4a7b-8b89-909fe5da2968")
 		(property "Reference" "#FLG4"
-			(at 202.565 68.58 0)
+			(at 203.835 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17568,7 +17560,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 204.47 68.58 90)
+			(at 205.74 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17577,7 +17569,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 68.58 0)
+			(at 201.93 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17586,7 +17578,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 68.58 0)
+			(at 201.93 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17595,7 +17587,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 200.66 68.58 0)
+			(at 201.93 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17688,6 +17680,89 @@
 			(project "Satisfaction_2025"
 				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
 					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_KSL:GT-BTP30002-0350B-019B")
+		(at 168.91 64.77 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38012014-8d56-4003-9ed3-343602cb7a81")
+		(property "Reference" "J7"
+			(at 164.592 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GT-BTP30002-0350B-019B"
+			(at 168.91 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_KSL:CONN-SMD_GT-BTP30002-0350B-019B"
+			(at 168.91 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20240906/62610B2B7CB81AE3778ADCA5ECBA552A.pdf"
+			(at 171.196 64.643 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Battery bending blade connector pitch 3mm, 1.9mm travel, 1mm width"
+			(at 168.91 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41378766"
+			(at 168.91 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2c802a2b-cc4e-4a8b-9218-c40a5aba7a39")
+		)
+		(pin "1"
+			(uuid "5b83255a-de41-49cf-879b-eb9945ebafce")
+		)
+		(pin "3"
+			(uuid "042baf64-1f2f-4851-b50b-7e6d0b9a8656")
+		)
+		(instances
+			(project "Satisfactron_2025"
+				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -22653,6 +22728,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_KSL:GT-BTP30002-0350B-019B")
+		(at 168.91 76.2 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59456b9e-6556-4045-82f2-aedfa29dcad7")
+		(property "Reference" "J8"
+			(at 164.846 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GT-BTP30002-0350B-019B"
+			(at 168.91 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_KSL:CONN-SMD_GT-BTP30002-0350B-019B"
+			(at 168.91 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20240906/62610B2B7CB81AE3778ADCA5ECBA552A.pdf"
+			(at 171.196 76.073 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Battery bending blade connector pitch 3mm, 1.9mm travel, 1mm width"
+			(at 168.91 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41378766"
+			(at 168.91 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4797e6f8-7c94-4588-8853-66c1b101ef7b")
+		)
+		(pin "1"
+			(uuid "48bb256c-faad-4e03-a1fc-b135285741ec")
+		)
+		(pin "3"
+			(uuid "516ebdc4-cc98-4c43-adbd-bd499defaeed")
+		)
+		(instances
+			(project "Satisfactron_2025"
+				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 76.2 58.42 90)
 		(unit 1)
@@ -26472,7 +26630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_KSL:HDR-TH_4P-P2.54-V-M"
+		(property "Footprint" "Screen_KSL:Waveshare_screen_0.9"
 			(at 238.76 60.96 0)
 			(effects
 				(font
@@ -27058,96 +27216,6 @@
 			(project "Carte_Mere_PAMI_2025"
 				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
 					(reference "#PWR63")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch_KSL:SS-12D11G5R")
-		(at 191.77 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8798e182-f065-4eb6-bf2e-c91d9ff4680f")
-		(property "Reference" "SW1"
-			(at 200.66 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SS-12D11G5R"
-			(at 200.66 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Switch_KSL:SW-TH_SS-12D11G5R"
-			(at 191.77 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/363903.html"
-			(at 189.484 55.753 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Horizontal Plug 5A Single Pole Double Throw (SPDT) 125V 125V 5A 10,000 times Black Plugin Slide Switches ROHS THT"
-			(at 191.77 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C388633"
-			(at 191.77 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e3640e15-e268-47ea-9bbb-9658bff31c20")
-		)
-		(pin "5"
-			(uuid "b7e85256-61e8-43c2-a4d4-2e3aab9ca82f")
-		)
-		(pin "3"
-			(uuid "03d12272-b079-4dc8-8000-86e4450d207a")
-		)
-		(pin "2"
-			(uuid "d6792bb4-8ab5-4503-9340-0c902491d4d9")
-		)
-		(pin "4"
-			(uuid "b4e4f46d-49b5-452a-ba10-1d8aff211fcd")
-		)
-		(instances
-			(project ""
-				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -27976,7 +28044,7 @@
 				)
 			)
 		)
-		(property "Footprint" "12V-actuators_pcb:MicroSiP"
+		(property "Footprint" "DC-DC_converter_KSL:USIP-8_L3.0-W2.8-P0.65-TL-EP"
 			(at 59.69 124.46 0)
 			(effects
 				(font
@@ -28523,6 +28591,89 @@
 			(project "Carte_Mere_PAMI_2025"
 				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
 					(reference "#PWR3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_KSL:GT-BTP30002-0350B-019B")
+		(at 182.88 76.2 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90070119-86d1-4186-a579-0975ea8199b7")
+		(property "Reference" "J10"
+			(at 178.816 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GT-BTP30002-0350B-019B"
+			(at 182.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_KSL:CONN-SMD_GT-BTP30002-0350B-019B"
+			(at 182.88 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20240906/62610B2B7CB81AE3778ADCA5ECBA552A.pdf"
+			(at 185.166 76.073 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Battery bending blade connector pitch 3mm, 1.9mm travel, 1mm width"
+			(at 182.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41378766"
+			(at 182.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "32ed40e7-d935-436c-8fb0-e1a6cd37fde6")
+		)
+		(pin "1"
+			(uuid "ce30bfb4-d03b-449e-a4c0-00a4678abce0")
+		)
+		(pin "3"
+			(uuid "110d1263-3354-4412-8dcb-6522616b07db")
+		)
+		(instances
+			(project "Satisfactron_2025"
+				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -30003,106 +30154,6 @@
 			(project "Satisfactron_2025"
 				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
 					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DC-DC_converter_KSL:TPS82130SILR")
-		(at 250.19 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3c0a85d-66b3-461b-be76-8d94a4a3dd23")
-		(property "Reference" "U14"
-			(at 250.19 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS82130SILR"
-			(at 250.19 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "DC-DC_converter_KSL:USIP-8_L3.0-W2.8-P0.65-TL-EP"
-			(at 250.19 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/480473.html"
-			(at 247.904 110.363 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Step-down fully integrated DC-DC converter power module 3V-17V"
-			(at 250.19 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C473914"
-			(at 250.19 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "3a2eb5b6-97a8-46b0-85c3-2163937a1178")
-		)
-		(pin "3"
-			(uuid "38f8e640-8c2f-4d79-8971-65b6bd0b0174")
-		)
-		(pin "5"
-			(uuid "6fe739b4-5a8a-4fde-a0a6-37ff57af7228")
-		)
-		(pin "1"
-			(uuid "0cf38c6e-38d2-4a38-9298-158e049bf262")
-		)
-		(pin "2"
-			(uuid "9570e76f-039c-4d63-a7da-0b1da920d615")
-		)
-		(pin "7"
-			(uuid "80a00860-0b03-4bb4-8f55-6ac86d762c03")
-		)
-		(pin "9"
-			(uuid "ba25bbaf-a064-47f1-b189-18ae1c0cf926")
-		)
-		(pin "4"
-			(uuid "aca33564-43a7-408b-a4cc-ec556ddbbde8")
-		)
-		(pin "6"
-			(uuid "d6748d6b-4476-4053-9e6d-b1ac112ad145")
-		)
-		(instances
-			(project ""
-				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
-					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -33431,6 +33482,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch_KSL:MSK-22D18G4_051")
+		(at 190.5 35.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba7fda7d-91f1-4391-a02a-a449cc658853")
+		(property "Reference" "SW1"
+			(at 190.373 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MSK-22D18G4_051"
+			(at 190.373 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch_KSL:SW-TH_HX-MSK-22D18G4-051"
+			(at 180.34 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20231016/7F9C1F299AEF9CB679C85C94DF434799.pdf"
+			(at 190.627 33.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Horizontal slide switch 100mA DPDT 12V"
+			(at 190.5 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7507433"
+			(at 190.5 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6674760b-e2c2-4b60-be0f-1f5652c4c274")
+		)
+		(pin "3"
+			(uuid "33d3c15c-c3e6-4330-8f5c-21d391cdbc4a")
+		)
+		(pin "5"
+			(uuid "dddfce80-6374-414a-b774-6b79dab2f797")
+		)
+		(pin "1"
+			(uuid "a63ed870-66d6-4b5e-bae5-33d1685e642a")
+		)
+		(pin "2"
+			(uuid "26516f02-5e4a-47d4-9f6c-3a74ef6d6676")
+		)
+		(pin "6"
+			(uuid "b6446dd1-c57f-47c4-8c3a-c97e437b9fd1")
+		)
+		(instances
+			(project ""
+				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED_Driver_KSL:WS2811C")
 		(at 317.5 29.21 0)
 		(unit 1)
@@ -36331,7 +36473,7 @@
 	)
 	(symbol
 		(lib_id "Connector_KSL:GT-BTP30002-0350B-019B")
-		(at 167.64 44.45 0)
+		(at 168.91 26.67 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -36340,7 +36482,7 @@
 		(dnp no)
 		(uuid "daa874d6-cc3e-4d30-9577-4c3d05399b43")
 		(property "Reference" "J4"
-			(at 163.322 44.45 0)
+			(at 164.592 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36348,7 +36490,7 @@
 			)
 		)
 		(property "Value" "GT-BTP30002-0350B-019B"
-			(at 167.64 36.83 0)
+			(at 168.91 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36357,7 +36499,7 @@
 			)
 		)
 		(property "Footprint" "Connector_KSL:CONN-SMD_GT-BTP30002-0350B-019B"
-			(at 167.64 54.61 0)
+			(at 168.91 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36367,7 +36509,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20240906/62610B2B7CB81AE3778ADCA5ECBA552A.pdf"
-			(at 169.926 44.323 0)
+			(at 171.196 26.543 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36377,7 +36519,7 @@
 			)
 		)
 		(property "Description" "Battery bending blade connector pitch 3mm, 1.9mm travel, 1mm width"
-			(at 167.64 44.45 0)
+			(at 168.91 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36386,7 +36528,7 @@
 			)
 		)
 		(property "LCSC" "C41378766"
-			(at 167.64 44.45 0)
+			(at 168.91 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37254,7 +37396,7 @@
 	)
 	(symbol
 		(lib_id "Connector_KSL:GT-BTP30002-0350B-019B")
-		(at 167.64 55.88 0)
+		(at 168.91 38.1 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -37263,7 +37405,7 @@
 		(dnp no)
 		(uuid "e572bbe5-dda0-476c-a94b-6e2ed3b4b6c1")
 		(property "Reference" "J2"
-			(at 163.576 55.88 0)
+			(at 164.846 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37271,7 +37413,7 @@
 			)
 		)
 		(property "Value" "GT-BTP30002-0350B-019B"
-			(at 167.64 48.26 0)
+			(at 168.91 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37280,7 +37422,7 @@
 			)
 		)
 		(property "Footprint" "Connector_KSL:CONN-SMD_GT-BTP30002-0350B-019B"
-			(at 167.64 66.04 0)
+			(at 168.91 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37290,7 +37432,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20240906/62610B2B7CB81AE3778ADCA5ECBA552A.pdf"
-			(at 169.926 55.753 0)
+			(at 171.196 37.973 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37300,7 +37442,7 @@
 			)
 		)
 		(property "Description" "Battery bending blade connector pitch 3mm, 1.9mm travel, 1mm width"
-			(at 167.64 55.88 0)
+			(at 168.91 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37309,7 +37451,7 @@
 			)
 		)
 		(property "LCSC" "C41378766"
-			(at 167.64 55.88 0)
+			(at 168.91 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38045,7 +38187,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 200.66 66.04 270)
+		(at 201.93 48.26 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -38054,7 +38196,7 @@
 		(dnp no)
 		(uuid "f1215b38-cc6f-4637-a077-994005ce1498")
 		(property "Reference" "#FLG3"
-			(at 202.565 66.04 0)
+			(at 203.835 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38063,7 +38205,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 204.47 66.04 90)
+			(at 205.74 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38072,7 +38214,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 66.04 0)
+			(at 201.93 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38081,7 +38223,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 66.04 0)
+			(at 201.93 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38090,7 +38232,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 200.66 66.04 0)
+			(at 201.93 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)

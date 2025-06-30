@@ -8,4 +8,7 @@
   (lib (name "LED_KSL")(type "KiCad")(uri "${KSL_ROOT}/LED_KSL/LED_KSL.pretty")(options "")(descr ""))
   (lib (name "MCU_KSL")(type "KiCad")(uri "${KSL_ROOT}/MCU_KSL/MCU_KSL.pretty")(options "")(descr ""))
   (lib (name "DC-DC_converter_KSL")(type "KiCad")(uri "${KSL_ROOT}/DC-DC_converter_KSL/DC-DC_converter_KSL.pretty")(options "")(descr ""))
+  (lib (name "Protection_KSL")(type "KiCad")(uri "${KSL_ROOT}/Protection_KSL/Protection_KSL.pretty")(options "")(descr ""))
+  (lib (name "Transistor_KSL")(type "KiCad")(uri "${KSL_ROOT}/Transistor_KSL/Transistor_KSL.pretty")(options "")(descr ""))
+  (lib (name "Screen_KSL")(type "KiCad")(uri "${KSL_ROOT}/Screen_KSL/Screen_KSL.pretty")(options "")(descr ""))
 )
