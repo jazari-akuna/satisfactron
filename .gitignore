@@ -22,6 +22,5 @@ fp-info-cache
 
 # Exported BOM files
 *.xml
-*.csv
 
 Satisfactron_2025-backups/
