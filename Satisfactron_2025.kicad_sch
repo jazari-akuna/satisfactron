@@ -1331,24 +1331,6 @@
 					)
 				)
 				(pin unspecified line
-					(at -1.27 -15.24 90)
-					(length 2.54)
-					(name "SH"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "0"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
 					(at 1.27 15.24 270)
 					(length 2.54)
 					(name "SH"
@@ -1359,24 +1341,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 1.27 -15.24 90)
-					(length 2.54)
-					(name "SH"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "13"
 						(effects
 							(font
 								(size 1 1)
@@ -1521,6 +1485,44 @@
 						)
 					)
 					(number "A1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(symbol "USB-TYPE-C-018_1_1"
+				(pin unspecified line
+					(at -1.27 -15.24 90)
+					(length 2.54)
+					(name "SH"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "0"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 -15.24 90)
+					(length 2.54)
+					(name "SH"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1 1)
@@ -19304,7 +19306,7 @@
 		(pin "2"
 			(uuid "ea4cecdd-bc4e-4979-81a2-9fe1b41e9e04")
 		)
-		(pin "0"
+		(pin "1"
 			(uuid "4ad34d6c-4f4f-465f-9bd4-565de5dfa6e6")
 		)
 		(pin "A7"
@@ -19322,7 +19324,7 @@
 		(pin "B8"
 			(uuid "62314ef5-8e52-417e-986e-7dccda6790c2")
 		)
-		(pin "13"
+		(pin "0"
 			(uuid "f671485b-a554-4ce3-9ea3-e0c4043436db")
 		)
 		(pin "A1"
