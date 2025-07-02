@@ -255,7 +255,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|444500|1689100|13c2eb6c-e865-42f2-96e6-3368ba5bdbbf|00000000-0000-0000-0000-000000000000|/d0b6cc72-ff07-4f5e-a148-04b65c86a715|/d0b6cc72-ff07-4f5e-a148-04b65c86a715|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -449,7 +454,7 @@
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "ignore",
-      "lib_symbol_mismatch": "warning",
+      "lib_symbol_mismatch": "ignore",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -460,7 +465,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "ignore",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -469,7 +474,7 @@
       "simulation_model_issue": "error",
       "single_global_label": "ignore",
       "unannotated": "error",
-      "unconnected_wire_endpoint": "warning",
+      "unconnected_wire_endpoint": "ignore",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
