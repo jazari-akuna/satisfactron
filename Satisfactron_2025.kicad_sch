@@ -8729,6 +8729,10 @@
 		(uuid "0192952b-0b80-484f-a1dd-818fd76a16d6")
 	)
 	(no_connect
+		(at 391.16 228.6)
+		(uuid "098b8e39-0b40-4869-a029-c720127c0678")
+	)
+	(no_connect
 		(at 33.02 55.88)
 		(uuid "0e135e1b-389c-4f8b-aa51-9e6203e56ff1")
 	)
@@ -8741,12 +8745,28 @@
 		(uuid "10e63020-2ddf-486a-b934-868458b20f04")
 	)
 	(no_connect
+		(at 363.22 228.6)
+		(uuid "16ebc4ad-37eb-43e0-84cc-59f297eadf61")
+	)
+	(no_connect
+		(at 363.22 232.41)
+		(uuid "1970e812-aa49-457b-ba04-c6f70665dfcc")
+	)
+	(no_connect
 		(at 389.89 63.5)
 		(uuid "26bb1aa0-549a-4298-bf9e-ee37120c675b")
 	)
 	(no_connect
+		(at 373.38 228.6)
+		(uuid "2d818b5b-b239-4792-ad88-738954c5d8bc")
+	)
+	(no_connect
 		(at 340.36 63.5)
 		(uuid "2db15f83-9e64-4950-a908-cd998cded8cb")
+	)
+	(no_connect
+		(at 378.46 232.41)
+		(uuid "32320f44-f871-4a50-afeb-ba5f849737e9")
 	)
 	(no_connect
 		(at 81.28 44.45)
@@ -8761,6 +8781,14 @@
 		(uuid "572c1c89-50ea-4dbd-8afa-cdc5722231c4")
 	)
 	(no_connect
+		(at 401.32 228.6)
+		(uuid "59263030-0631-41aa-884e-04b7933d7511")
+	)
+	(no_connect
+		(at 391.16 218.44)
+		(uuid "5cfbb5de-7995-475e-ab2d-457b0a928516")
+	)
+	(no_connect
 		(at 232.41 63.5)
 		(uuid "5ede6295-b7f8-4631-8042-8acefbef1f59")
 	)
@@ -8769,12 +8797,28 @@
 		(uuid "601b35b5-9370-4d2e-b96c-60c564745eac")
 	)
 	(no_connect
+		(at 373.38 242.57)
+		(uuid "63bb8ea6-4fb6-4df4-99d9-b7af4f346f80")
+	)
+	(no_connect
 		(at 33.02 44.45)
 		(uuid "67c20fe8-18e5-4240-8891-f0eb34b61da1")
 	)
 	(no_connect
+		(at 388.62 232.41)
+		(uuid "6918e2ef-90dc-4e2d-95bb-0bed8bc32482")
+	)
+	(no_connect
+		(at 363.22 242.57)
+		(uuid "6a74fd59-f2a0-4a4a-bb5b-22a39f34f7c4")
+	)
+	(no_connect
 		(at 93.98 39.37)
 		(uuid "72ec8159-3968-49bd-8ea8-7e9a9829fd3d")
+	)
+	(no_connect
+		(at 373.38 232.41)
+		(uuid "75f0adaa-04de-42b3-ad46-55756e0f56ff")
 	)
 	(no_connect
 		(at 81.28 39.37)
@@ -8813,6 +8857,10 @@
 		(uuid "9a79d715-0daf-4c05-8752-65912d1a9c11")
 	)
 	(no_connect
+		(at 388.62 228.6)
+		(uuid "9cab286c-471c-4c59-a451-f2602bc625d5")
+	)
+	(no_connect
 		(at 198.12 148.59)
 		(uuid "a00ccda6-3e2b-4208-b009-05043068fbdc")
 	)
@@ -8821,12 +8869,28 @@
 		(uuid "a2a758bf-b8dc-4b44-b71f-9ed294bc228d")
 	)
 	(no_connect
+		(at 378.46 228.6)
+		(uuid "b0d7c861-9a90-43ce-8cef-9493503f6e72")
+	)
+	(no_connect
 		(at 33.02 132.08)
 		(uuid "b11784a5-1e94-4521-849e-bdefbb9f3339")
 	)
 	(no_connect
+		(at 363.22 218.44)
+		(uuid "b5f47b8f-8566-4eb6-a46f-43a41ff109d2")
+	)
+	(no_connect
+		(at 388.62 218.44)
+		(uuid "b6a381d8-71ff-4763-94e9-e0f2380e8710")
+	)
+	(no_connect
 		(at 33.02 41.91)
 		(uuid "b74d4205-03ed-4fd6-87a8-dbc3ed75323c")
+	)
+	(no_connect
+		(at 378.46 242.57)
+		(uuid "bf8bee66-602e-4441-9fbf-6606aecdca07")
 	)
 	(no_connect
 		(at 81.28 54.61)
@@ -8841,8 +8905,24 @@
 		(uuid "ce4347af-39ae-4610-ae8e-d35002cb6395")
 	)
 	(no_connect
+		(at 388.62 242.57)
+		(uuid "d1d54dd8-3fa2-4a2f-978b-1f5c64b8440d")
+	)
+	(no_connect
 		(at 81.28 57.15)
 		(uuid "d35891dd-7eba-4ec3-8903-bb1b52193b5c")
+	)
+	(no_connect
+		(at 378.46 218.44)
+		(uuid "d78f3e78-c121-425a-a76e-72b39f2bbf68")
+	)
+	(no_connect
+		(at 401.32 218.44)
+		(uuid "db3f046b-482d-442e-84f1-f1637f6382da")
+	)
+	(no_connect
+		(at 373.38 218.44)
+		(uuid "f11dd4ae-0281-426e-818c-13befd9b4f55")
 	)
 	(no_connect
 		(at 93.98 57.15)
@@ -15022,6 +15102,92 @@
 			(project "Satisfactron_2025"
 				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SPVN310101_1")
+		(lib_id "Switch_KSL:SPVN310101")
+		(at 383.54 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08309acb-23ec-4db8-8d94-44749d7f3a6e")
+		(property "Reference" "SW17"
+			(at 384.048 217.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SPVN310101"
+			(at 383.54 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Switch_KSL:SW-SMD_SPVN310101"
+			(at 383.54 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/249473.html"
+			(at 381.254 223.393 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "SPST 5V 1mA 0.35N small limit switch right lever"
+			(at 383.54 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C255568"
+			(at 383.54 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f35fc733-f19a-4b3a-bc57-8e371eec9deb")
+		)
+		(pin "3"
+			(uuid "a7345b80-def8-4c8b-8b17-712bc1711cfe")
+		)
+		(pin "2"
+			(uuid "9ae54b73-b5d6-4e7e-b8b2-e4aab96be4b2")
+		)
+		(pin "4"
+			(uuid "fa761a1c-bec5-48cc-a5fd-e84963ce2cd3")
+		)
+		(instances
+			(project "Satisfactron_2025"
+				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
+					(reference "SW17")
 					(unit 1)
 				)
 			)
@@ -22571,6 +22737,92 @@
 		)
 	)
 	(symbol
+		(lib_name "SPVN310101_1")
+		(lib_id "Switch_KSL:SPVN310101")
+		(at 383.54 237.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b415b84-237f-4975-abe8-6e0095247844")
+		(property "Reference" "SW19"
+			(at 384.048 231.394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SPVN310101"
+			(at 383.54 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Switch_KSL:SW-SMD_SPVN310101"
+			(at 383.54 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/249473.html"
+			(at 381.254 237.363 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "SPST 5V 1mA 0.35N small limit switch right lever"
+			(at 383.54 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C255568"
+			(at 383.54 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ad4fe5e-3679-439c-8436-7288a998399a")
+		)
+		(pin "3"
+			(uuid "988052be-5fec-4c0a-9fcb-8053ccba6672")
+		)
+		(pin "2"
+			(uuid "9a548d94-68c1-49b6-ac75-0484d1d9a12f")
+		)
+		(pin "4"
+			(uuid "dd13ff97-ef5a-4fae-a869-b225ed83bf78")
+		)
+		(instances
+			(project "Satisfactron_2025"
+				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
+					(reference "SW19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 323.85 153.67 180)
 		(unit 1)
@@ -27752,6 +28004,92 @@
 		)
 	)
 	(symbol
+		(lib_name "SPVN310101_1")
+		(lib_id "Switch_KSL:SPVN310101")
+		(at 396.24 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c4da8da-c16f-4327-8c00-53dbfa010f04")
+		(property "Reference" "SW20"
+			(at 396.748 217.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SPVN310101"
+			(at 396.24 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Switch_KSL:SW-SMD_SPVN310101"
+			(at 396.24 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/249473.html"
+			(at 393.954 223.393 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "SPST 5V 1mA 0.35N small limit switch right lever"
+			(at 396.24 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C255568"
+			(at 396.24 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "789a5a4a-bf77-4d2d-a780-cad10b132460")
+		)
+		(pin "3"
+			(uuid "a7a0681c-b980-473b-8a8e-97af6698dde6")
+		)
+		(pin "2"
+			(uuid "a2d9e3dd-326f-4173-8beb-e8cc684d6fd2")
+		)
+		(pin "4"
+			(uuid "7bc3e247-c97f-41ea-901b-b007bac05365")
+		)
+		(instances
+			(project "Satisfactron_2025"
+				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
+					(reference "SW20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 283.21 200.66 180)
 		(unit 1)
@@ -29037,6 +29375,92 @@
 			(project ""
 				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SPVN310101_1")
+		(lib_id "Switch_KSL:SPVN310101")
+		(at 368.3 237.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b504c24-eb54-47c2-9a5d-db98c80aa449")
+		(property "Reference" "SW18"
+			(at 368.808 231.394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SPVN310101"
+			(at 368.3 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Switch_KSL:SW-SMD_SPVN310101"
+			(at 368.3 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/249473.html"
+			(at 366.014 237.363 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "SPST 5V 1mA 0.35N small limit switch right lever"
+			(at 368.3 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C255568"
+			(at 368.3 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70d1c4e2-b997-48db-b89c-e87024644df1")
+		)
+		(pin "3"
+			(uuid "939cb2c1-acd3-4f36-b3aa-6fbc9e83a461")
+		)
+		(pin "2"
+			(uuid "459a4293-a6a8-4f93-be7c-0e6750b36e88")
+		)
+		(pin "4"
+			(uuid "15664462-9a1a-48ae-b924-3fdb885784e4")
+		)
+		(instances
+			(project "Satisfactron_2025"
+				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
+					(reference "SW18")
 					(unit 1)
 				)
 			)
@@ -39499,6 +39923,92 @@
 			(project "Carte_Mere_PAMI_2025"
 				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
 					(reference "#PWR41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SPVN310101_1")
+		(lib_id "Switch_KSL:SPVN310101")
+		(at 368.3 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed4a4386-3587-45c8-b1a6-72eefb5a7281")
+		(property "Reference" "SW16"
+			(at 368.808 217.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SPVN310101"
+			(at 368.3 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Switch_KSL:SW-SMD_SPVN310101"
+			(at 368.3 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/249473.html"
+			(at 366.014 223.393 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "SPST 5V 1mA 0.35N small limit switch right lever"
+			(at 368.3 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C255568"
+			(at 368.3 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56367db7-a232-4566-a31d-a5cedf6a07f9")
+		)
+		(pin "3"
+			(uuid "309fb879-4c97-48f0-84dc-b6e6b3dda056")
+		)
+		(pin "2"
+			(uuid "f5b420d0-03a6-4661-9a98-ac2b2599fa6f")
+		)
+		(pin "4"
+			(uuid "a928d2b0-f1f9-40aa-8e9e-7b521d1ddd61")
+		)
+		(instances
+			(project "Satisfactron_2025"
+				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
+					(reference "SW16")
 					(unit 1)
 				)
 			)
