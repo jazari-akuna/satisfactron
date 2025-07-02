@@ -23641,7 +23641,7 @@
 		(path "/aaaedfcd-eb36-4535-887d-1aae3a784fff")
 		(sheetname "/")
 		(sheetfile "Satisfactron_2025.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.261253 0.735)
 			(end 0.261253 0.735)
@@ -23853,7 +23853,7 @@
 		)
 		(sheetname "/")
 		(sheetfile "Satisfactron_2025.kicad_sch")
-		(attr smd board_only)
+		(attr smd board_only exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -3.4 -3)
 			(end -3.4 0.040005)
