@@ -14926,7 +14926,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23182"
+		(property "LCSC" "C22808"
 			(at 288.29 53.34 0)
 			(effects
 				(font
@@ -15005,7 +15005,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23182"
+		(property "LCSC" "C23140"
 			(at 260.35 58.42 0)
 			(effects
 				(font
@@ -20295,7 +20295,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23182"
+		(property "LCSC" "C23140"
 			(at 311.15 60.96 0)
 			(effects
 				(font
@@ -21567,7 +21567,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23182"
+		(property "LCSC" "C23140"
 			(at 360.68 60.96 0)
 			(effects
 				(font
@@ -21713,7 +21713,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23182"
+		(property "LCSC" "C23140"
 			(at 151.13 58.42 0)
 			(effects
 				(font
@@ -21921,7 +21921,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23182"
+		(property "LCSC" "C23140"
 			(at 200.66 63.5 0)
 			(effects
 				(font
@@ -22332,6 +22332,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 88.9 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d600a90a-864a-4ddc-9a40-32348442e2c3")
 		)
@@ -22634,7 +22643,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23182"
+		(property "LCSC" "C22808"
 			(at 233.68 53.34 0)
 			(effects
 				(font
@@ -23574,7 +23583,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23182"
+		(property "LCSC" "C23140"
 			(at 308.61 63.5 0)
 			(effects
 				(font
@@ -24284,7 +24293,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23182"
+		(property "LCSC" "C23140"
 			(at 17.78 212.09 0)
 			(effects
 				(font
@@ -24855,7 +24864,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23182"
+		(property "LCSC" "C23140"
 			(at 205.74 58.42 0)
 			(effects
 				(font
@@ -26018,7 +26027,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "C23162"
 			(at 120.65 195.58 0)
 			(effects
 				(font
@@ -27279,6 +27288,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 295.91 59.6835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f760b2ae-0cb4-4c71-81b2-68e6c1a3db91")
 		)
@@ -28491,7 +28509,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23182"
+		(property "LCSC" "C23140"
 			(at 146.05 63.5 0)
 			(effects
 				(font
@@ -28998,6 +29016,15 @@
 		)
 		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 135.89 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C8545"
+			(at 141.732 193.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29652,7 +29679,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23182"
+		(property "LCSC" "C23140"
 			(at 203.2 60.96 0)
 			(effects
 				(font
@@ -29817,7 +29844,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23182"
+		(property "LCSC" "C22808"
 			(at 391.16 53.34 0)
 			(effects
 				(font
@@ -30349,7 +30376,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23182"
+		(property "LCSC" "C23140"
 			(at 257.81 60.96 0)
 			(effects
 				(font
@@ -31576,6 +31603,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 346.71 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 349.25 59.6835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32834,6 +32870,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 186.69 54.6035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "39c70303-bb4a-4f49-af20-368208e74591")
 		)
@@ -32970,7 +33015,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23182"
+		(property "LCSC" "C22808"
 			(at 179.07 49.53 0)
 			(effects
 				(font
@@ -34008,7 +34053,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23182"
+		(property "LCSC" "C23140"
 			(at 148.59 60.96 0)
 			(effects
 				(font
@@ -34708,7 +34753,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23182"
+		(property "LCSC" "C23140"
 			(at 363.22 58.42 0)
 			(effects
 				(font
@@ -34845,6 +34890,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 238.76 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 241.3 59.6835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35449,7 +35503,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23186"
 			(at 20.32 138.43 0)
 			(effects
 				(font
@@ -36192,7 +36246,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2286"
+		(property "LCSC" "C2290"
 			(at 76.2 210.82 0)
 			(effects
 				(font
@@ -36264,6 +36318,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 396.24 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 398.78 59.6835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38683,7 +38746,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23182"
+		(property "LCSC" "C23140"
 			(at 392.43 73.66 0)
 			(effects
 				(font
@@ -39072,7 +39135,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23182"
+		(property "LCSC" "C23140"
 			(at 313.69 58.42 0)
 			(effects
 				(font
@@ -39151,7 +39214,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23182"
+		(property "LCSC" "C22808"
 			(at 341.63 53.34 0)
 			(effects
 				(font
@@ -40068,7 +40131,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23182"
+		(property "LCSC" "C23140"
 			(at 358.14 63.5 0)
 			(effects
 				(font
@@ -40683,7 +40746,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23182"
+		(property "LCSC" "C23140"
 			(at 255.27 63.5 0)
 			(effects
 				(font
@@ -41487,7 +41550,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23186"
 			(at 67.31 138.43 0)
 			(effects
 				(font
