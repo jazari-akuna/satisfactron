@@ -8647,6 +8647,12 @@
 		(uuid "e0635840-dd66-493d-a578-52d78b53841c")
 	)
 	(junction
+		(at 38.1 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e185dc78-327d-4c93-ac13-e71387c121be")
+	)
+	(junction
 		(at 292.1 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10311,6 +10317,16 @@
 			(type default)
 		)
 		(uuid "432697ad-1d89-4b99-857f-3911f069ed08")
+	)
+	(wire
+		(pts
+			(xy 38.1 167.64) (xy 38.1 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43dc52fb-9d11-4185-8c97-c44cf4b02492")
 	)
 	(wire
 		(pts
@@ -29784,6 +29800,72 @@
 			(project "Satisfactron_2025"
 				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
 					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VP")
+		(at 38.1 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81669565-3823-46e0-8a77-3219ea63e7b4")
+		(property "Reference" "#PWR084"
+			(at 38.1 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5L"
+			(at 38.1 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "066d62fc-4e02-4d22-a80f-aa03ae11d992")
+		)
+		(instances
+			(project "Satisfactron_2025"
+				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
